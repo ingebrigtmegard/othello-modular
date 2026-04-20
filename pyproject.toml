@@ -1,0 +1,55 @@
+[project]
+name = "othello-modular"
+version = "1.0.0"
+description = "A fully modular Othello (Reversi) game implementation in Python"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+keywords = ["othello", "reversi", "game", "pyqt6", "tdd"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment :: Board Games",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/othello-modular"
+Documentation = "https://yourusername.github.io/othello-modular"
+Repository = "https://github.com/yourusername/othello-modular"
+
+[project.scripts]
+othello = "othello.main:main"
+
+[project.optional-dependencies]
+sound = ["pygame-ce>=2.0.0"]  # For sound effects
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {where = ["src"]}
+
+[tool.setuptools.package-data]
+"othello" = ["py.typed"]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "-v --cov=src --cov-report=html"
