@@ -3,7 +3,7 @@
 import pytest
 from PyQt6.QtWidgets import QApplication
 
-from src.othello.gui.main_window import MainWindow
+from othello.gui.main_window import MainWindow
 
 
 @pytest.fixture

@@ -2,9 +2,9 @@
 
 from unittest.mock import Mock
 
-from src.othello.core.constants import PlayerColor
-from src.othello.gui.game_controller import GameController
-from src.othello.players.random_player import RandomPlayer
+from othello.core.constants import PlayerColor
+from othello.gui.game_controller import GameController
+from othello.players.random_player import RandomPlayer
 
 
 class TestGameController:

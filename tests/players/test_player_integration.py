@@ -1,9 +1,9 @@
 ﻿"""Integration tests for player system with engine."""
 
-from src.othello.core.constants import PlayerColor
-from src.othello.core.engine import OthelloEngine
-from src.othello.players.ai_player import AiPlayer
-from src.othello.players.random_player import RandomPlayer
+from othello.core.constants import PlayerColor
+from othello.core.engine import OthelloEngine
+from othello.players.ai_player import AiPlayer
+from othello.players.random_player import RandomPlayer
 
 
 class TestPlayerIntegration:

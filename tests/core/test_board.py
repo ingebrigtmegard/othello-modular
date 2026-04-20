@@ -1,7 +1,7 @@
 ﻿"""Tests for Board state management."""
 
-from ..src.othello.core.board import Board
-from ..src.othello.core.constants import PlayerColor
+from othello.core.board import Board
+from othello.core.constants import PlayerColor
 
 
 class TestBoard:

@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional, Tuple
 
-from .core.constants import PlayerColor
+from othello.core.constants import PlayerColor
 
 
 class IPlayer(ABC):

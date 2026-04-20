@@ -2,8 +2,8 @@
 
 import pytest
 
-from src.othello.core.constants import PlayerColor
-from src.othello.players.human_adapter import HumanPlayerAdapter
+from othello.core.constants import PlayerColor
+from othello.players.human_adapter import HumanPlayerAdapter
 
 
 class TestHumanPlayerAdapter:

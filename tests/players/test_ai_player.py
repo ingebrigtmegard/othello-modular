@@ -2,8 +2,8 @@
 
 import pytest
 
-from src.othello.core.constants import PlayerColor
-from src.othello.players.ai_player import AiPlayer
+from othello.core.constants import PlayerColor
+from othello.players.ai_player import AiPlayer
 
 
 class TestAiPlayer:

@@ -2,9 +2,9 @@
 
 from unittest.mock import Mock, patch
 
-from src.othello.core.constants import PlayerColor
-from src.othello.core.events import EngineEvent, EngineEventType
-from src.othello.gui.game_controller import GameController
+from othello.core.constants import PlayerColor
+from othello.core.events import EngineEvent, EngineEventType
+from othello.gui.game_controller import GameController
 
 
 class TestPassNotification:
@@ -31,7 +31,7 @@ class TestPassNotification:
         # Patch GameController to use mock sound_manager
         self.original_sound_manager = None
         try:
-            from src.othello.utils import sounds
+            from othello.utils import sounds
 
             self.original_sound_manager = sounds.SoundManager
         except ImportError:
@@ -41,7 +41,7 @@ class TestPassNotification:
         """Test that pass event triggers notification."""
         # Create controller with mocked sound_manager
         with patch(
-            "src.othello.gui.game_controller.SoundManager",
+            "othello.gui.game_controller.SoundManager",
             return_value=self.mock_sound_manager,
         ):
             controller = GameController(

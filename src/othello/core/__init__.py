@@ -1,10 +1,10 @@
 ﻿"""Core engine package."""
 
-from .core.board import Board
-from .core.constants import BoardSize, PlayerColor
-from .core.engine import IEngineObserver, OthelloEngine
-from .core.events import EngineEvent, EngineEventType
-from .core.rules import RulesValidator
+from .board import Board
+from .constants import BoardSize, PlayerColor
+from .engine import IEngineObserver, OthelloEngine
+from .events import EngineEvent, EngineEventType
+from .rules import RulesValidator
 
 __all__ = [
     "PlayerColor",

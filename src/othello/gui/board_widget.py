@@ -6,7 +6,7 @@ from PyQt6.QtCore import Qt, QTimer, pyqtSignal  # ADDED QTimer for single-shot 
 from PyQt6.QtGui import QBrush, QColor, QPainter, QPen
 from PyQt6.QtWidgets import QGridLayout, QLabel, QWidget
 
-from .core.constants import PlayerColor
+from othello.core.constants import PlayerColor
 
 # REMOVED: import time  # BLOCKING CALLS REMOVED
 

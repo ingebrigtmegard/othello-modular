@@ -2,7 +2,7 @@
 
 from typing import List
 
-from .core.constants import BoardSize, PlayerColor
+from .constants import BoardSize, PlayerColor
 
 
 class Board:

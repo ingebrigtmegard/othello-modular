@@ -1,11 +1,11 @@
 ﻿"""GUI package."""
 
-from .gui.board_widget import BoardWidget
-from .gui.events import GameEvent, GameEventType
-from .gui.game_controller import GameController
-from .gui.main_window import MainWindow
-from .gui.menu_widget import MenuWidget
-from .gui.score_widget import ScoreWidget
+from .board_widget import BoardWidget
+from .events import GameEvent, GameEventType
+from .game_controller import GameController
+from .main_window import MainWindow
+from .menu_widget import MenuWidget
+from .score_widget import ScoreWidget
 
 __all__ = [
     "MainWindow",

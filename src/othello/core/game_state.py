@@ -4,7 +4,7 @@ import json
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Tuple
 
-from .core.constants import PlayerColor
+from .constants import PlayerColor
 
 @dataclass
 class GameSave:

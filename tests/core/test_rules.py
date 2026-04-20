@@ -1,8 +1,8 @@
 ﻿"""Tests for RulesValidator (flipping logic)."""
 
-from ..src.othello.core.board import Board
-from ..src.othello.core.constants import PlayerColor
-from ..src.othello.core.rules import RulesValidator
+from othello.core.board import Board
+from othello.core.constants import PlayerColor
+from othello.core.rules import RulesValidator
 
 
 class TestRulesValidator:

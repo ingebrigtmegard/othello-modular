@@ -2,8 +2,8 @@
 
 from typing import List, Tuple
 
-from .core.board import Board
-from .core.constants import PlayerColor
+from .board import Board
+from .constants import PlayerColor
 
 
 class RulesValidator:

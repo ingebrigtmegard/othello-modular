@@ -3,8 +3,8 @@
 import random
 from typing import List, Optional, Tuple
 
-from .core.constants import PlayerColor
-from .players.interfaces import IPlayer
+from othello.core.constants import PlayerColor
+from .interfaces import IPlayer
 
 
 class RandomPlayer(IPlayer):

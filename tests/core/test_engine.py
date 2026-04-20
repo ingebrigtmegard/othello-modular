@@ -1,7 +1,7 @@
 ﻿"""Tests for OthelloEngine (game state and flow)."""
 
-from ..src.othello.core.constants import PlayerColor
-from ..src.othello.core.engine import OthelloEngine
+from othello.core.constants import PlayerColor
+from othello.core.engine import OthelloEngine
 
 
 class TestOthelloEngine:

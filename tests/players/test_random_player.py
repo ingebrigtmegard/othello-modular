@@ -2,8 +2,8 @@
 
 import pytest
 
-from src.othello.core.constants import PlayerColor
-from src.othello.players.random_player import RandomPlayer
+from othello.core.constants import PlayerColor
+from othello.players.random_player import RandomPlayer
 
 
 class TestRandomPlayer:

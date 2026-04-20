@@ -4,19 +4,19 @@ import threading
 
 from PyQt6.QtCore import QObject, QTimer, pyqtSignal
 
-from .core.constants import PlayerColor
-from .core.engine import OthelloEngine
-from .core.events import EngineEvent, EngineEventType
-from .gui.board_widget import BoardWidget
-from .gui.menu_widget import MenuWidget
-from .gui.score_widget import ScoreWidget
-from .players.ai_player import AiPlayer
-from .players.human_adapter import HumanPlayerAdapter
-from .players.interfaces import IPlayer
+from othello.core.constants import PlayerColor
+from othello.core.engine import OthelloEngine
+from othello.core.events import EngineEvent, EngineEventType
+from .board_widget import BoardWidget
+from .menu_widget import MenuWidget
+from .score_widget import ScoreWidget
+from othello.players.ai_player import AiPlayer
+from othello.players.human_adapter import HumanPlayerAdapter
+from othello.players.interfaces import IPlayer
 
 # Optional sound import
 try:
-    from .utils.sounds import SoundManager
+    from othello.utils.sounds import SoundManager
 
     SOUND_AVAILABLE = True
 except ImportError:

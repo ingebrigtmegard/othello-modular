@@ -2,10 +2,10 @@
 
 from typing import Dict, List, Optional, Protocol, Tuple, runtime_checkable
 
-from .core.board import Board
-from .core.constants import BoardSize, PlayerColor
-from .core.events import EngineEvent, EngineEventType
-from .core.rules import RulesValidator
+from .board import Board
+from .constants import BoardSize, PlayerColor
+from .events import EngineEvent, EngineEventType
+from .rules import RulesValidator
 
 
 @runtime_checkable

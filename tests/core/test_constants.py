@@ -1,6 +1,6 @@
 ﻿"""Tests for game constants."""
 
-from ..src.othello.core.constants import BoardSize, PlayerColor
+from othello.core.constants import BoardSize, PlayerColor
 
 
 class TestConstants:

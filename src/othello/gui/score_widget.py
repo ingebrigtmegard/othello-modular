@@ -4,7 +4,7 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import QHBoxLayout, QLabel, QVBoxLayout, QWidget
 
-from .core.constants import PlayerColor
+from othello.core.constants import PlayerColor
 
 
 class ScoreWidget(QWidget):
