@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "you@example.com"}
+    {name = "ingebrigtmegard", email = "ingebrigtmegard@users.noreply.github.com"}
 ]
 keywords = ["othello", "reversi", "game", "pyqt6", "tdd"]
 classifiers = [
@@ -22,9 +22,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/othello-modular"
+Homepage = "https://github.com/ingebrigtmegard/othello-modular"
 Documentation = "https://yourusername.github.io/othello-modular"
-Repository = "https://github.com/yourusername/othello-modular"
+Repository = "https://github.com/ingebrigtmegard/othello-modular"
 
 [project.scripts]
 othello = "othello.main:main"
